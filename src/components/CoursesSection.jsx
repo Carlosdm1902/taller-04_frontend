@@ -4,7 +4,7 @@ import './CoursesSection.css'
 
 function CoursesSection() {
   return (
-    <section className="courses">
+    <section id="cursos" className="courses">
       <h2 className="courses__title">Nuestros Cursos</h2>
       <p className="courses__subtitle">Elige el camino que mejor se adapte a ti</p>
       <div className="courses__grid">

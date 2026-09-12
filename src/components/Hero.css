@@ -23,6 +23,7 @@
 }
 
 .hero__button {
+  display: inline-block;
   background-color: var(--color-pink);
   color: var(--color-text-light);
   padding: 10px 26px;
