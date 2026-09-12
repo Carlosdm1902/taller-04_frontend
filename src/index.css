@@ -1,0 +1,35 @@
+:root {
+  --color-bg-navy-dark: #0b1120;
+  --color-bg-navy: #131c37;
+  --color-bg-light: #f4f5f9;
+  --color-pink: #ef4568;
+  --color-pink-dark: #d63455;
+  --color-text-light: #f5f6fa;
+  --color-text-muted: #a3aecb;
+  --color-text-dark: #1a1f2e;
+  --color-text-dark-muted: #6b7280;
+  --color-card-bg: #ffffff;
+  --font-main: 'Segoe UI', system-ui, -apple-system, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-main);
+  background-color: #e9eaf0;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+  border: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}

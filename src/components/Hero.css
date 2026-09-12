@@ -1,0 +1,37 @@
+.hero {
+  background: linear-gradient(180deg, var(--color-bg-navy) 0%, var(--color-bg-navy-dark) 100%);
+  padding: 70px 32px;
+  text-align: center;
+}
+
+.hero__title {
+  color: var(--color-text-light);
+  font-size: 2rem;
+  margin-bottom: 16px;
+}
+
+.hero__highlight {
+  color: var(--color-pink);
+}
+
+.hero__subtitle {
+  color: var(--color-text-muted);
+  max-width: 480px;
+  margin: 0 auto 28px;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+.hero__button {
+  background-color: var(--color-pink);
+  color: var(--color-text-light);
+  padding: 10px 26px;
+  border-radius: 999px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  transition: background-color 0.2s ease;
+}
+
+.hero__button:hover {
+  background-color: var(--color-pink-dark);
+}
