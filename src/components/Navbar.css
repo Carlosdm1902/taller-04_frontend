@@ -26,3 +26,21 @@
 .navbar__links a:hover {
   color: var(--color-text-light);
 }
+
+.navbar__links a.active {
+  color: var(--color-text-light);
+}
+
+@media (max-width: 520px) {
+  .navbar {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 16px;
+    padding: 18px 20px;
+  }
+
+  .navbar__links {
+    flex-wrap: wrap;
+    gap: 12px 18px;
+  }
+}

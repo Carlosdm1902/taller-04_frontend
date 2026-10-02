@@ -1,13 +1,15 @@
+import { NavLink } from 'react-router-dom'
 import './Navbar.css'
 
 function Navbar() {
   return (
     <header className="navbar">
-      <span className="navbar__logo">ReactAcademy</span>
+      <NavLink className="navbar__logo" to="/">ReactAcademy</NavLink>
       <nav className="navbar__links">
-        <a href="#inicio">Inicio</a>
-        <a href="#cursos">Cursos</a>
-        <a href="#nosotros">Nosotros</a>
+        <NavLink to="/" end>Inicio</NavLink>
+        <NavLink to="/cursos">Cursos</NavLink>
+        <NavLink to="/nosotros">Nosotros</NavLink>
+        <NavLink to="/login">Login</NavLink>
       </nav>
     </header>
   )
